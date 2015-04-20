@@ -18,6 +18,16 @@
         "marker": "/* Add Component LESS Above */",
         "template": "@import \"<%= filename %>\";"
       }
-    }
+    },
+    "modules": [
+      {
+        "name": "home",
+        "file": "app/states/home/home.js"
+      },
+      {
+        "name": "afterSchoolPrograms",
+        "file": "app/states/after-school-programs/after-school-programs.js"
+      }
+    ]
   }
 }

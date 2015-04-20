@@ -1,4 +1,4 @@
-angular.module('techworksWeb', ['ui.bootstrap','ui.utils','ui.router','ngAnimate']);
+angular.module('techworksWeb', ['ui.bootstrap', 'ui.utils', 'ui.router', 'ngAnimate', 'home', 'afterSchoolPrograms']);
 
 angular.module('techworksWeb').config(function($stateProvider, $urlRouterProvider) {
 
